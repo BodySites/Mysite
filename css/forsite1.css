@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "OpenSans";
+}
+
+.header .navbar span {
+  color: rgba(255, 255, 255, 0.69);
+  line-height: 1.2;
+  display: inline-block;
+  margin: 25px 54px 0 0;
+  font-size: 17px;
+}
+
+.header .navbar {
+  width: 1580px;
+  height: 70px;
+  background-color: #000000;
+}
+.header .navbar .logo {
+  margin: 22px 595px 23px 150px;
+  width: 80px;
+}
+.header.panel {
+  height: 700px;
+  background-color: #9a9a9a;
+  width: 1580px;
+  position: relative;
+}
+.header.panel .Signup {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  top: 190px;
+  left: 990px;
+}
+.header.panel .Signup .signTOP {
+  height: 54px;
+  background-color: #f6f6f6;
+}
+.header.panel .Signup .signTOP .txtFREE {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 18px;
+}
+.header.panel .Signup .signTOP .txtFREE span {
+  color: #ff8b38;
+}
+.header.panel .Signup .sign {
+  height: 306px;
+  background-color: #fff;
+}
+.header.panel .Signup .sign .form input {
+  width: 290px;
+  margin: 26px 35px 0;
+  line-height: 1.2;
+  font-size: 16px;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 10px;
+  opacity: 0.8;
+}
+.header.panel .Signup .sign .form input:focus {
+  -webkit-box-shadow: 0 0 5px 5px #887878;
+          box-shadow: 0 0 5px 5px #887878;
+}
+.header.panel .Signup .sign .form .button {
+  display: inline-block;
+  margin-top: 50px;
+  background-color: #ff9d4b;
+  height: 59px;
+  width: 100%;
+}
+.header.panel .Signup .sign .form .button a {
+  display: inline-block;
+  background-color: #ff9d4b;
+  font-size: 18px;
+  color: white;
+  line-height: 1.2;
+  opacity: 0.9;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+}
+.header.panel .Signup .sign .form .button a:active {
+  background-color: #4873A8;
+}
+.header.panel .picture1 {
+  color: rgba(255, 255, 255, 0.22);
+  line-height: 1.2;
+  text-align: center;
+  font-size: 35px;
+  padding: 60px 0 16px 0;
+}
+.header.panel .logo {
+  margin: 0 0 30px 150px;
+}
+.header.panel .podlogo {
+  margin: 0 0 30px 150px;
+  font-size: 36px;
+  font-weight: lighter;
+  color: white;
+  line-height: 1.2;
+  width: 550px;
+}
+.header.panel .divider {
+  margin: 0 0 30px 150px;
+}
+.header.panel .poddivider {
+  margin: 0 0 50px 150px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.438;
+  color: #cccccc;
+  width: 480px;
+}
+.header.panel .download {
+  padding: 12px 32px;
+  border: 3px solid #e6e6e6;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  margin: 0 0 50px 150px;
+  border: 5px solid #000;
+}
+.header.panel .download:hover {
+  border: 5px solid #C04A4A;
+  color: #C04A4A;
+}
+.header.panel .download:active {
+  border: 2px solid #C04A4A;
+  -webkit-box-shadow: 0 0 10px 4px #2D5D30;
+          box-shadow: 0 0 10px 4px #2D5D30;
+}
+.header .BrandBar {
+  width: 1580px;
+  border-bottom: 4px solid #9a9a9a;
+}
+.header .BrandBar .text .text1 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  margin: 15px 0 10px 150px;
+}
+.header .BrandBar .text .text2 {
+  width: 360px;
+  display: inline-block;
+  color: #86878b;
+  margin: 0 0 10px 150px;
+  font-size: 16px;
+}
+.header .BrandBar .text .media {
+  margin: -20px 0 0 90px;
+}
